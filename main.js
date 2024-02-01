@@ -261,11 +261,6 @@ app.get('/products/:id', (req,res)=>{
         res.status(404).send('Mehsul yoxdur')
     }
 })
-
-
-
-
-
 app.listen(4002, function () {
   console.log('Example app listening on port 4001!');
 });
